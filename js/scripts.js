@@ -1,3 +1,5 @@
-var name = prompt("Enter your name");
-alert("Hello "+ name);
-console.log("Hello " + name);
+var a = prompt("Type triangle's base:");
+	h = prompt("Type triangle's height:");
+	triangleArea = 1/2 * a * h;
+
+console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
